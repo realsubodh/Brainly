@@ -1,12 +1,10 @@
 // import { model, Schema } from "mongoose";
-
 // const UserSchema = new Schema({
 //     username : {type: String, unique:true},
 //     password : String
 // })
-
 // export const UserModel = model("User", UserSchema)
-
 import mongoose from "mongoose";
-mongoose.connect(process.env.MONGO_URL!)
-.then(()=>console.log("MongoDB Connected✅"))
+mongoose.connect(process.env.MONGO_URL)
+    .then(() => console.log("MongoDB Connected✅"));
+//# sourceMappingURL=db.js.map
