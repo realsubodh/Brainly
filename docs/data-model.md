@@ -1,0 +1,1 @@
+![schema](/docs/engineering%20logs/learnings/schema.png)
